@@ -46,8 +46,8 @@ body {
 
 .container {
     width: 1200px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Стилизация шапки */
@@ -57,6 +57,7 @@ body {
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
+    padding: 0 15px;
 }
 
 .page-header .container {
@@ -150,7 +151,6 @@ body {
 
     min-height: 600px;
     text-align: center;
-
 }
 
 .hero-title {
@@ -187,7 +187,7 @@ body {
 
 /* Секция наши качества */
 .quality {
-    padding: 94px 15px;
+    padding: 94px 0;
 }
 
 .quality .quality-list {
@@ -242,7 +242,7 @@ body {
 
 /* Стилизация секции наша команда */
 .our-team {
-    padding: 94px 15px;
+    padding: 94px 0;
 }
 
 .our-team-list {
@@ -253,6 +253,8 @@ body {
 
 .our-team-list-card {
     width: calc((100% - 90px) / 4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-list-card:not(:nth-last-child(1)) {
@@ -263,8 +265,12 @@ body {
     display: block;
 }
 
+.our-team-list-card-capture {
+    padding: 30px 0;
+}
+
 .our-team-list-card-name {
-    margin: 30px 0 0 0;
+    margin: 0;
     color: var(--title-color);
 
     font-weight: 500;
@@ -287,7 +293,7 @@ body {
 
 /* Страница портфолио */
 .examples {
-    padding: 94px 15px;
+    padding: 94px 0;
 }
 
 .filters {
@@ -325,7 +331,7 @@ body {
 .examples-list {
     display: flex;
     flex-wrap: wrap;
-    margin: 34px 0 0;
+    margin: 50px 0 0;
     padding: 0;
 }
 
@@ -399,6 +405,9 @@ footer .contacts.list {
 
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+
 
 }
 
